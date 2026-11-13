@@ -1,17 +1,27 @@
-# ledger_project
+# Ledger Project – Flutter App
 
-A new Flutter project.
+A money transfer application built using Flutter and integrated with a FastAPI backend and MySQL database.
 
-## Getting Started
+## Features
+- User Signup and Login
+- JWT Authentication
+- Secure Token Storage
+- Automatic Login
+- Money Transfer
+- Account Balance
+- Transaction History
+- Refund Functionality
+- Idempotency Support
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dart
+- FastAPI
+- Python
+- MySQL
+- REST API
+- Flutter Secure Storage
 
-A few resources to get you started if this is your first Flutter project:
+## Related Repository
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Backend Repository: [Ledger Backend](https://github.com/jyotirathiii/ledger_project)
