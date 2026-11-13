@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:ledger_project/screens/login_screen.dart';
+import 'package:ledger_project/screens/splash_Screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }

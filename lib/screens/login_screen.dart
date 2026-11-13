@@ -44,9 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
       if (!mounted) return;
 
       if (result['token'] != null) {
-        Session.token = result['token'];
-
-        Session.email = email;
+        await Session.save(result['token'], email);
         ScaffoldMessenger.of(
           context,
         ).showSnackBar(SnackBar(content: Text('Login successful')));

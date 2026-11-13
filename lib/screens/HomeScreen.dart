@@ -122,7 +122,7 @@ class _HomescreenState extends State<Homescreen> {
       },
     );
     if (result == true) {
-      Session.clear();
+      await Session.clear();
       Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(builder: (context) => LoginScreen()),
